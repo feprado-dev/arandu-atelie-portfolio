@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Símbolo Arandu Ateliê">
+  <!-- sol nascendo dentro do portal -->
+  <path d="M34 66 A16 16 0 0 1 66 66 Z" fill="#E3B673"/>
+  <!-- portal em arco -->
+  <path d="M28 70 V44 A22 22 0 0 1 72 44 V70" fill="none" stroke="#B5643A" stroke-width="5" stroke-linecap="round"/>
+  <!-- horizonte e caminho -->
+  <path d="M18 70 H82" stroke="#394026" stroke-width="4" stroke-linecap="round"/>
+  <path d="M30 78 H70" stroke="#66713F" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M41 85 H59" stroke="#66713F" stroke-width="3" stroke-linecap="round"/>
+</svg>
