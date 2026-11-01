@@ -75,11 +75,13 @@ form.addEventListener('submit', (e) => {
   const field = form.nome.closest('.field');
   if (!nome) {
     field.classList.add('has-error');
+    form.nome.setAttribute('aria-invalid', 'true');
     msg.textContent = 'Por favor, informe o seu nome.';
     form.nome.focus();
     return;
   }
   field.classList.remove('has-error');
+  form.nome.removeAttribute('aria-invalid');
 
   const texto = [
     `Olá, Arandu Ateliê! Meu nome é ${nome}.`,
